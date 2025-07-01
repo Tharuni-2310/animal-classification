@@ -116,8 +116,3 @@ while True:
         break
     predict_from_url(url)
 
-!jupyter nbconvert --to script "Animal Classification.ipynb"
-
-from google.colab import files
-files.download("Animal Classification.py")
-
