@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1VG_bNJVZG-l-guaY060NwMSgiaEKRa6k
 """
 
-!pip install bing-image-downloader tensorflow scikit-learn matplotlib seaborn
-
 import os
 import numpy as np
 from bing_image_downloader import downloader
