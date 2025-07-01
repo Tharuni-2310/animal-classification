@@ -8,7 +8,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.applications import MobileNetV2
 
 # Load your trained model
-clf = pickle.load(open("model.pkl", "rb"))
+clf = pickle.load(open("model(1).pkl", "rb"))
 categories = ['Dog', 'Cat', 'Cow', 'Monkey', 'Elephant']
 
 # Load MobileNetV2 model once
